@@ -31,6 +31,11 @@ Vue.use(VueRouter)
     path: '/modal',
     name: 'Modal',
     component :()=> import(/* ç: "modal" */ '../views/Modal.vue')
+  },
+  {
+    path: '/info',
+    name: 'Info',
+    component :()=> import(/* ç: "modal" */ '../views/info.vue')
   }
 ]
 
